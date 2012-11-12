@@ -15,7 +15,6 @@ def emilyControl(data, sp)
 	control = parsedData['control']
 	number = parsedData['number']
 	
-	#number.times {puts control}
 	number.times {sp.write control}
 end
 
